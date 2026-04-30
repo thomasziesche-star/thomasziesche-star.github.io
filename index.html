@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Accountant with beard — independent mobile app development based in Germany. Building Android apps published on Google Play." />
+  <meta name="robots" content="index, follow" />
+  <title>Accountant with beard — Mobile App Development</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="canonical" href="https://thomasziesche-star.github.io/" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Accountant with beard</h1>
+    <p class="tagline">Independent mobile app development from Germany.</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Accountant with beard is an independent software development practice
+        focused on building useful, privacy-respecting Android applications.
+        Our apps are distributed through Google Play.
+      </p>
+      <p>
+        The studio is operated by Thomas Ziesche, based in Germany. We build
+        small, dependable tools rather than chasing scale — applications we
+        ourselves want to use every day.
+      </p>
+    </section>
+
+    <section id="apps">
+      <h2>Apps</h2>
+      <p>
+        New releases are in preparation. Once published on Google Play, they
+        will be listed on this page along with links and short descriptions.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-block">
+        <span class="label">Email</span>
+        <span class="email">
+          <a id="contact-email"
+             href="#"
+             data-user="thomas.ziesche"
+             data-domain="gmail.com">
+            (enable JavaScript to view)
+          </a>
+        </span>
+      </div>
+      <p style="margin-top: 1rem; color: var(--muted); font-size: 0.95rem;">
+        For business inquiries, support, or app feedback. We respond within a
+        few working days.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span>&copy; <span id="year">2026</span> Thomas Ziesche &middot; Accountant with beard</span>
+    <nav>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+  </footer>
+
+  <script>
+    // Email obfuscation: assemble at runtime so naive scrapers don't see it.
+    (function () {
+      var a = document.getElementById('contact-email');
+      if (!a) return;
+      var addr = a.dataset.user + '@' + a.dataset.domain;
+      a.href = 'mailto:' + addr;
+      a.textContent = addr;
+    })();
+    // Auto-update copyright year.
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
