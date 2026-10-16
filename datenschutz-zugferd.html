@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Datenschutzerklärung / Privacy Policy für die Android-App ZUGFeRD &amp; Accounting (ZUGFeRD &amp; E-Invoice Reader)." />
+  <meta name="robots" content="index, follow" />
+  <title>Datenschutz ZUGFeRD &amp; Accounting — Accountant with beard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <article class="legal">
+    <a class="back-link" href="index.html">&larr; Zur Startseite</a>
+    <p><a href="#de">Deutsch</a> &middot; <a href="#en">English</a></p>
+
+    <section id="de" lang="de">
+      <h1>Datenschutzerklärung – ZUGFeRD &amp; Accounting</h1>
+      <p>Diese Erklärung gilt für die Android-App <strong>ZUGFeRD &amp; Accounting</strong> (in der App „ZUGFeRD &amp; E-Invoice Reader“, Paketname <code>com.ziesche.peppolreader</code>), erhältlich bei Google Play.</p>
+
+      <h2>1. Verantwortlicher</h2>
+      <p>Thomas Ziesche (Accountant with beard), Anschrift siehe <a href="impressum.html">Impressum</a>.<br />
+      E-Mail: <a class="js-email" href="#" data-user="thomas.ziesche" data-domain="gmail.com">(JavaScript aktivieren zur Anzeige)</a></p>
+
+      <h2>2. Kurz gesagt</h2>
+      <ul>
+        <li>Die App arbeitet auf Ihrem Gerät. Es gibt <strong>keinen Server des Entwicklers</strong>, kein Benutzerkonto, keine Werbung, keine Analyse- oder Tracking-Dienste und keine Absturzberichte an Dritte.</li>
+        <li>Der Entwickler erhält <strong>keine</strong> Ihrer Daten.</li>
+        <li>Daten verlassen das Gerät nur, wenn <strong>Sie</strong> es auslösen: über die optionale KI-Funktion (Abschnitt 4), beim Teilen oder Exportieren (Abschnitt 5) und über Datensicherungen (Abschnitt 6).</li>
+      </ul>
+
+      <h2>3. Daten auf Ihrem Gerät</h2>
+      <p>Die App speichert lokal im privaten App-Speicher:</p>
+      <ul>
+        <li><strong>Empfangene Rechnungen</strong>, die Sie importieren (XML und PDF). Sie enthalten typischerweise Namen, Anschriften, Umsatzsteuer-IDs und Steuernummern, Bankverbindungen, Positionen und Beträge von Lieferanten und Kunden, dazu Ihre Notizen, Kategorien und den Bezahlstatus.</li>
+        <li><strong>Rechnungserstellung:</strong> Ihr Firmenprofil (Name, Anschrift, USt-ID, Steuernummer, IBAN/BIC, E-Mail, Telefon, Logo), Kunden, Artikel, erstellte Rechnungen samt PDF sowie Zahlungs- und Mahnstatus.</li>
+        <li><strong>Einstellungen</strong>, darunter die Zugangsdaten (API-Schlüssel) für die optionale KI-Funktion.</li>
+      </ul>
+      <p>Das Logo wählen Sie über die Bildauswahl des Systems. Die App erhält keinen Zugriff auf Ihre übrigen Fotos. Rechnungen öffnen Sie über die Dateiauswahl oder „Öffnen mit“ bzw. „Teilen“ aus anderen Apps.</p>
+
+      <h2>4. Optionale KI-Funktion</h2>
+      <p>Sie können der App eigene Zugangsdaten eines KI-Anbieters hinzufügen und Fragen zu einer Rechnung stellen. Ohne eingerichteten Anbieter werden keine Daten gesendet.</p>
+      <ul>
+        <li><strong>Anbieter:</strong> Sie wählen selbst zwischen OpenAI, Google Gemini, Anthropic, Mistral, OpenRouter, Langdock oder einem eigenen, OpenAI-kompatiblen Dienst (frei eingegebene Adresse). Sie nutzen dabei Ihr eigenes Konto und Ihren eigenen API-Schlüssel beim jeweiligen Anbieter.</li>
+        <li><strong>Was gesendet wird:</strong> Wenn Sie eine Frage stellen, sendet die App die <strong>vollständigen XML-Daten der ausgewählten Rechnung</strong> zusammen mit Ihrer Frage direkt von Ihrem Gerät an den gewählten Anbieter. Diese Daten können personenbezogene Daten und Finanzdaten enthalten, etwa Namen, Anschriften, Steuer-IDs, Bankverbindungen und Beträge. PDF-Dateien, Bilder und frühere Fragen werden nicht mitgeschickt.</li>
+        <li>Beim Laden der verfügbaren Modelle wird nur Ihr API-Schlüssel an den Anbieter übertragen, keine Rechnungsdaten.</li>
+        <li>Die Übertragung erfolgt verschlüsselt (HTTPS), bei einem eigenen Dienst gemäß der von Ihnen eingegebenen Adresse.</li>
+        <li><strong>Der Entwickler erhält diese Daten nicht.</strong> Für die Verarbeitung beim Anbieter gelten dessen Bedingungen und Datenschutzbestimmungen. Ob Sie Rechnungsdaten Dritter an einen solchen Dienst übermitteln dürfen, etwa mit einem Auftragsverarbeitungsvertrag mit dem Anbieter, liegt in Ihrer Verantwortung.</li>
+        <li>Ihre API-Schlüssel werden nur auf dem Gerät gespeichert und nicht in die app-eigene Sicherungsdatei aufgenommen. Der Chatverlauf wird nicht gespeichert.</li>
+      </ul>
+
+      <h2>5. Teilen, Exportieren, Drucken, E-Mail</h2>
+      <p>Auf Ihre Veranlassung kann die App Rechnungen, PDFs, CSV- oder ZIP-Exporte und Sicherungsdateien an einen von Ihnen gewählten Speicherort schreiben, über die Teilen-Funktion an andere Apps übergeben oder drucken. Zahlungserinnerungen bereitet die App als E-Mail-Entwurf in Ihrer E-Mail-App vor, versendet werden sie von Ihnen. Was mit den Daten danach geschieht, bestimmt die jeweils gewählte App bzw. der Dienst.</p>
+
+      <h2>6. Datensicherung</h2>
+      <ul>
+        <li><strong>App-eigene Sicherung:</strong> Auf Wunsch, manuell oder als tägliche automatische Sicherung, erstellt die App eine ZIP-Datei mit Datenbank, Anhängen, erstellten Rechnungen, Logo und Einstellungen, ohne KI-Zugangsdaten. Sie wird nur in dem Ordner gespeichert, den Sie auswählen. Synchronisiert ein anderer Dienst diesen Ordner, etwa ein Cloud-Speicher, gelten dessen Bedingungen.</li>
+        <li><strong>Android-Datensicherung:</strong> Wenn Sie die Sicherung von Android nutzen, kann das System Teile der App-Daten verschlüsselt in Ihrem eigenen Google-Konto sichern: Einstellungen einschließlich Firmenprofil und KI-Zugangsdaten, erstellte Rechnungs-PDFs und das Logo. Die Rechnungsdatenbank und importierte Rechnungsdateien sind davon ausgenommen. Bei einer direkten Übertragung auf ein neues Gerät können alle App-Daten übertragen werden. Der Entwickler hat auf diese Sicherungen keinen Zugriff. Die Sicherung können Sie in den Android-Einstellungen abschalten.</li>
+      </ul>
+
+      <h2>7. Benachrichtigungen</h2>
+      <p>Wenn Sie Erinnerungen einschalten, fragt die App nach der Berechtigung für Benachrichtigungen. Sie erinnert dann lokal an fällige oder überfällige Rechnungen. Die Prüfung läuft auf dem Gerät, es werden keine Daten gesendet.</p>
+
+      <h2>8. Berechtigungen</h2>
+      <ul>
+        <li><strong>Internet:</strong> ausschließlich für die optionale KI-Funktion.</li>
+        <li><strong>Benachrichtigungen:</strong> nur für die optionalen Erinnerungen.</li>
+      </ul>
+      <p>Die App nutzt keine Kamera, keinen Standort, keine Kontakte und kein Mikrofon.</p>
+
+      <h2>9. Speicherdauer und Löschung</h2>
+      <p>Daten bleiben auf Ihrem Gerät, bis Sie sie in der App löschen oder die App deinstallieren. Beim Deinstallieren werden alle lokalen App-Daten entfernt. Von Ihnen angelegte Sicherungs- und Exportdateien sowie Daten bei einem KI-Anbieter löschen Sie dort.</p>
+
+      <h2>10. Ihre Rechte</h2>
+      <p>Ihnen stehen die Rechte aus Art. 15–21 DSGVO sowie das Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO) zu. Da der Entwickler über diese App keine Daten von Ihnen verarbeitet, liegen beim Entwickler in der Regel keine Daten vor, auf die sich diese Rechte beziehen könnten. Fragen beantworten wir gern per E-Mail.</p>
+
+      <h2>11. Änderungen</h2>
+      <p>Ändert sich die Datenverarbeitung, etwa durch neue Funktionen, wird diese Seite aktualisiert.</p>
+      <p style="color: var(--muted); font-size: 0.9rem;">Stand: Oktober 2026</p>
+    </section>
+
+    <hr style="border: 0; border-top: 1px solid var(--border); margin: 3rem 0;" />
+
+    <section id="en" lang="en">
+      <h1>Privacy Policy – ZUGFeRD &amp; Accounting</h1>
+      <p>This policy applies to the Android app <strong>ZUGFeRD &amp; Accounting</strong> (shown in the app as "ZUGFeRD &amp; E-Invoice Reader", package <code>com.ziesche.peppolreader</code>), available on Google Play.</p>
+
+      <h2>1. Controller</h2>
+      <p>Thomas Ziesche (Accountant with beard), Germany; postal address in the <a href="impressum.html">legal notice</a>.<br />
+      Email: <a class="js-email" href="#" data-user="thomas.ziesche" data-domain="gmail.com">(enable JavaScript to view)</a></p>
+
+      <h2>2. In short</h2>
+      <ul>
+        <li>The app works on your device. There is <strong>no developer server</strong>, no account, no ads, no analytics or tracking and no third-party crash reporting.</li>
+        <li>The developer receives <strong>none</strong> of your data.</li>
+        <li>Data leaves the device only when <strong>you</strong> trigger it: through the optional AI feature (section 4), when sharing or exporting (section 5) and through backups (section 6).</li>
+      </ul>
+
+      <h2>3. Data on your device</h2>
+      <p>The app stores the following locally in its private storage:</p>
+      <ul>
+        <li><strong>Received invoices</strong> you import (XML and PDF). They typically contain names, addresses, VAT and tax IDs, bank details, line items and amounts of suppliers and customers, plus your notes, categories and payment status.</li>
+        <li><strong>Invoice creator:</strong> your company profile (name, address, VAT ID, tax number, IBAN/BIC, email, phone, logo), customers, articles, created invoices including PDFs, and payment and dunning status.</li>
+        <li><strong>Settings</strong>, including the credentials (API keys) for the optional AI feature.</li>
+      </ul>
+      <p>You choose the logo through the system photo picker. The app gets no access to your other photos. You open invoices through the file picker or "Open with" / "Share" from other apps.</p>
+
+      <h2>4. Optional AI feature</h2>
+      <p>You can add your own credentials for an AI provider and ask questions about an invoice. If no provider is set up, no data is sent.</p>
+      <ul>
+        <li><strong>Providers:</strong> you choose between OpenAI, Google Gemini, Anthropic, Mistral, OpenRouter, Langdock or your own OpenAI-compatible service (address entered by you). You use your own account and your own API key with that provider.</li>
+        <li><strong>What is sent:</strong> when you ask a question, the app sends the <strong>complete XML data of the selected invoice</strong> together with your question directly from your device to the chosen provider. This data can contain personal and financial data such as names, addresses, tax IDs, bank details and amounts. PDF files, images and earlier questions are not sent.</li>
+        <li>Loading the list of available models sends only your API key to the provider, no invoice data.</li>
+        <li>Data is transmitted encrypted (HTTPS); for your own service according to the address you entered.</li>
+        <li><strong>The developer does not receive this data.</strong> Processing by the provider is governed by its own terms and privacy policy. Whether you may send third-party invoice data to such a service, for example under a data processing agreement with the provider, is your responsibility.</li>
+        <li>Your API keys are stored on the device only and are not included in the app's own backup file. The chat history is not stored.</li>
+      </ul>
+
+      <h2>5. Sharing, export, printing, email</h2>
+      <p>At your request the app can write invoices, PDFs, CSV or ZIP exports and backup files to a location you choose, hand them to other apps via the share function, or print them. Payment reminders are prepared as an email draft in your email app and sent by you. What happens to the data afterwards is determined by the app or service you chose.</p>
+
+      <h2>6. Backups</h2>
+      <ul>
+        <li><strong>In-app backup:</strong> on request, manually or as an automatic daily backup, the app creates a ZIP file with the database, attachments, created invoices, logo and settings (without AI credentials). It is saved only to the folder you choose. If another service syncs that folder, for example a cloud storage app, its terms apply.</li>
+        <li><strong>Android backup:</strong> if you use Android backup, the system may back up parts of the app data, encrypted, to your own Google account: settings including the company profile and AI credentials, created invoice PDFs and the logo. The invoice database and imported invoice files are excluded. A direct transfer to a new device may copy all app data. The developer has no access to these backups. You can turn backup off in the Android settings.</li>
+      </ul>
+
+      <h2>7. Notifications</h2>
+      <p>If you turn on reminders, the app asks for notification permission and reminds you locally about invoices that are due or overdue. The check runs on the device; no data is sent.</p>
+
+      <h2>8. Permissions</h2>
+      <ul>
+        <li><strong>Internet:</strong> only for the optional AI feature.</li>
+        <li><strong>Notifications:</strong> only for the optional reminders.</li>
+      </ul>
+      <p>The app does not use the camera, location, contacts or microphone.</p>
+
+      <h2>9. Retention and deletion</h2>
+      <p>Data stays on your device until you delete it in the app or uninstall the app. Uninstalling removes all local app data. Backup and export files you created, and data held by an AI provider, are deleted there.</p>
+
+      <h2>10. Your rights</h2>
+      <p>You have the rights under Art. 15–21 GDPR and the right to lodge a complaint with a supervisory authority (Art. 77 GDPR). As the developer does not process any of your data through this app, there is usually no data held by the developer to which these rights could apply. Questions are welcome by email.</p>
+
+      <h2>11. Changes</h2>
+      <p>If data processing changes, for example through new features, this page will be updated.</p>
+      <p style="color: var(--muted); font-size: 0.9rem;">Last updated: October 2026</p>
+    </section>
+  </article>
+
+  <footer>
+    <span>&copy; <span id="year">2026</span> Thomas Ziesche &middot; Accountant with beard</span>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+  </footer>
+
+  <script>
+    // E-Mail erst zur Laufzeit zusammensetzen, damit einfache Scraper sie nicht sehen.
+    document.querySelectorAll('.js-email').forEach(function (a) {
+      var addr = a.dataset.user + '@' + a.dataset.domain;
+      a.href = 'mailto:' + addr;
+      a.textContent = addr;
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
